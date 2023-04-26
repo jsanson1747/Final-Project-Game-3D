@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjchfg47hnnep"]
+
+[ext_resource type="PackedScene" uid="uid://bcark8qfcclqe" path="res://Gooch_Left_Hand.glb" id="1_mar7s"]
+
+[node name="Gooch_Left_Hand" instance=ExtResource("1_mar7s")]
+
+[node name="Skeleton3D" parent="Left Hand Bones" index="0"]
+bones/1/rotation = Quaternion(0.154476, -0.184602, 0.566275, 0.788284)
+bones/2/rotation = Quaternion(0.513209, 0.00775594, -0.137557, 0.847133)
+bones/3/rotation = Quaternion(0.598925, 0.264669, 0.0885859, 0.750594)
+bones/4/rotation = Quaternion(0.188268, -0.123285, 0.283179, 0.932291)
+bones/5/rotation = Quaternion(0.741887, -0.165838, -0.259101, 0.595792)
+bones/6/rotation = Quaternion(0.565265, 0.170937, 0.0412671, 0.805949)
+bones/7/rotation = Quaternion(0.296483, -0.04761, 0.0130222, 0.953762)
+bones/8/rotation = Quaternion(0.212062, -0.0675795, 0.0641608, 0.972803)
+bones/9/rotation = Quaternion(0.787951, -0.01056, 0.0340774, 0.614703)
+bones/10/rotation = Quaternion(0.37312, 0.0734796, 0.0519482, 0.923409)
+bones/11/rotation = Quaternion(0.443505, -0.341776, 0.0194805, 0.828319)
+bones/12/rotation = Quaternion(0.234086, -0.0192681, -0.157785, 0.959133)
+bones/13/rotation = Quaternion(0.738552, 0.10249, 0.120757, 0.655328)
+bones/14/rotation = Quaternion(0.480375, 0.0882209, 0.0567992, 0.870765)
+bones/15/rotation = Quaternion(0.405924, -0.0938088, 0.0264603, 0.908694)
+bones/16/rotation = Quaternion(0.240831, 0.0201527, -0.348511, 0.905613)
+bones/17/rotation = Quaternion(0.751531, 0.200845, 0.17752, 0.602784)
+bones/18/rotation = Quaternion(0.4874, -0.0820139, -0.163845, 0.853738)
+bones/19/rotation = Quaternion(0.372714, 0.00755636, -0.0724809, 0.92508)

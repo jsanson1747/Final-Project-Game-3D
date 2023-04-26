@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://610or40k3na4"]
+
+[ext_resource type="PackedScene" uid="uid://bcark8qfcclqe" path="res://Gooch_Left_Hand.glb" id="1_00hre"]
+[ext_resource type="PackedScene" uid="uid://4aha0vvtl2v5" path="res://gooch_legs.tscn" id="1_8eesx"]
+[ext_resource type="PackedScene" uid="uid://wr4fnv85udwk" path="res://Gooch_Spatula_Hand.glb" id="1_gjeo7"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_nmmv1"]
+
+[node name="Player" type="CharacterBody3D"]
+metadata/is_player = true
+
+[node name="head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="Camera3D" type="Camera3D" parent="head"]
+
+[node name="Gooch_Spatula_Hand" parent="head" instance=ExtResource("1_gjeo7")]
+process_priority = 1
+transform = Transform3D(-0.196781, 0.0144392, 0.0326932, 0.00747527, 0.195533, -0.0413648, -0.0349493, -0.039477, -0.192925, -0.0721595, -0.771333, -0.345764)
+
+[node name="Gooch_Left_Hand" parent="head" instance=ExtResource("1_00hre")]
+transform = Transform3D(-0.17327, 0.0616294, -0.0786096, 0.0838268, 0.175309, -0.0473285, 0.0543205, -0.0739509, -0.177709, -0.202604, -1.07308, -0.405186)
+
+[node name="body" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_nmmv1")
+
+[node name="Gooch_Legs" parent="." instance=ExtResource("1_8eesx")]
+transform = Transform3D(-6.55671e-09, 0, -0.15, 0, 0.15, 0, 0.15, 0, -6.55671e-09, 0, 0, 0.4)

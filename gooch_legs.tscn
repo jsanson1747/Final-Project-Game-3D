@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://4aha0vvtl2v5"]
+
+[ext_resource type="PackedScene" uid="uid://gw2ki8hyoo10" path="res://Gooch_Legs.glb" id="1_bgbaw"]
+
+[node name="Gooch_Legs" instance=ExtResource("1_bgbaw")]
+transform = Transform3D(-8.74228e-09, 0, -0.2, 0, 0.2, 0, 0.2, 0, -8.74228e-09, 0, 0, 0)
+
+[node name="Skeleton3D" parent="LegBones" index="0"]
+bones/2/rotation = Quaternion(-0.683529, -0.00660859, -0.00697546, 0.729861)
+bones/3/rotation = Quaternion(-0.00589957, -3.5784e-06, 0.0293294, 0.999552)
+bones/5/rotation = Quaternion(-0.00175343, -0.000287153, 0.801534, 0.597946)
+bones/7/rotation = Quaternion(-0.691134, 0.0104763, 0.0110835, 0.722566)
+bones/8/rotation = Quaternion(0.0118202, -0.000275792, -0.0466138, 0.998843)
+bones/10/rotation = Quaternion(0.00175932, -0.00254314, -0.795552, 0.605878)
