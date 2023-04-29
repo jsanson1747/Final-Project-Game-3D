@@ -1,11 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://cv6ok03fsk27m"]
+[gd_scene load_steps=11 format=3 uid="uid://s5sqp8gh06vm"]
 
 [ext_resource type="Script" path="res://scene_root.gd" id="1_jp4tc"]
-[ext_resource type="PackedScene" uid="uid://610or40k3na4" path="res://player.tscn" id="2_gjaok"]
+[ext_resource type="PackedScene" uid="uid://ugkfgjhjqo6s" path="res://player.tscn" id="2_gjaok"]
 [ext_resource type="Script" path="res://player.gd" id="3_2qkfp"]
-[ext_resource type="PackedScene" uid="uid://be6ud27twifwr" path="res://terrain.tscn" id="4_6gusy"]
-[ext_resource type="PackedScene" uid="uid://c25oprqm4x5ac" path="res://death_screen.tscn" id="5_evd17"]
-[ext_resource type="PackedScene" uid="uid://crvckggth42nd" path="res://hud.tscn" id="6_wpunm"]
+[ext_resource type="PackedScene" uid="uid://dx1yrympskere" path="res://terrain.tscn" id="4_6gusy"]
+[ext_resource type="PackedScene" uid="uid://cj5mplot4sexy" path="res://death_screen.tscn" id="5_evd17"]
+[ext_resource type="PackedScene" uid="uid://djehlfkfq5jmi" path="res://hud.tscn" id="6_wpunm"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_llu0w"]
 

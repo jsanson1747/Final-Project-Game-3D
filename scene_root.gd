@@ -13,6 +13,7 @@ func _ready():
 	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 	$NavigationRegion3D/terrain.set_meta("is_player", false)
 	burgerSpawner = preload("res://cheeseburger.tscn")
+	$HUD.show()
 	$DeathScreen.hide()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

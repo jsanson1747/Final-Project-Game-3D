@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://dqxmivtcx5yu0"]
+[gd_scene load_steps=27 format=3 uid="uid://ci3fouip8g8k2"]
 
 [ext_resource type="Script" path="res://cheeseburger.gd" id="1_xu22u"]
 [ext_resource type="Texture2D" uid="uid://u2e1sdtmx52a" path="res://burger_burger_rightEye.png" id="2_sdtrr"]

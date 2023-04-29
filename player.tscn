@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://610or40k3na4"]
+[gd_scene load_steps=5 format=3 uid="uid://ugkfgjhjqo6s"]
 
 [ext_resource type="PackedScene" uid="uid://bcark8qfcclqe" path="res://Gooch_Left_Hand.glb" id="1_00hre"]
 [ext_resource type="PackedScene" uid="uid://4aha0vvtl2v5" path="res://gooch_legs.tscn" id="1_8eesx"]

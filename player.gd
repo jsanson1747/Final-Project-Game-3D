@@ -18,7 +18,7 @@ func _ready():
 	$head/Gooch_Spatula_Hand/AnimationPlayer.seek(0)
 	$head/Gooch_Spatula_Hand/AnimationPlayer.set_speed_scale(2)
 	set_meta("is_player", true)	
-	get_parent().get_node("HUD").get_node("Health").text = str("Health: " + str(health))
+	get_parent().get_node("HUD").get_node("VBoxContainer").get_node("Health").text = str("Health: " + str(health))
 
 func _unhandled_input(event):
 	# Mouse Controls

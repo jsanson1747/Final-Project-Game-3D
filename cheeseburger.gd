@@ -58,6 +58,6 @@ func _on_navigation_agent_3d_target_reached():
 		if(damageTimeOut < 0):
 			damageTimeOut +=20
 			get_parent().get_parent().get_parent().get_node("Player").health -= 5
-			get_parent().get_parent().get_parent().get_node("HUD").get_node("Health").text = "Health: " + str(get_parent().get_parent().get_parent().get_node("Player").health)
+			get_parent().get_parent().get_parent().get_node("HUD").get_node("VBoxContainer").get_node("Health").text = "Health: " + str(get_parent().get_parent().get_parent().get_node("Player").health)
 			#print(get_parent().get_parent().get_parent().get_node("Player").health)
 		
