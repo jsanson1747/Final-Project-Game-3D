@@ -18,5 +18,9 @@ The Enemy is a CharacterBody3D and is made up of 2 simplified convex collision m
 The enemy moves autonomously utilizing GODOT's NavigationAgent3D and NavigationRegion3D. It constantly moves towrds the player and rotates it's head so it will always be looking at the player. They spawn in from a random direction around the player at regular intervals and immediatly after spawning, that start pathfinding towards the player. 
 
 ### The HUD
-This game has a very simple HUD. It displays the amount of health that the player has left. Every time the player gets hit by a cheeseburger, the health decreases by 5. Once the health reaches 0, the game ends with a freezeframe and the user is presented with "You Died" and a "Quit" button. 
+This game has a very simple HUD. It displays the amount of health that the player has left. Every time the player gets hit by a cheeseburger, the health decreases by 5. Once the health reaches 0, the game ends with a freezeframe and the user is presented with "You Died" and a "Quit" button.
+![image](https://user-images.githubusercontent.com/107002749/235383955-1ff3de4d-61cd-4e65-9d85-e53ca46b3995.png)
+
+![image](https://user-images.githubusercontent.com/107002749/235383785-f3d0c81d-8950-403e-9bad-9a7df2a23329.png)
+
 
