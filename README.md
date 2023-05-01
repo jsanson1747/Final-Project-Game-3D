@@ -1,7 +1,7 @@
 # Final-Project-Game-3D - Gooch 3D
 
 # Game Synopsis
-You play as a Monglian Chef named Gooch. You must explore the land and fight off evil cheeseburgers to protect you're Mongolian grill from the tyranny of the fast food industry.
+You play as a Monglian Chef named Gooch. You must explore the land and fight off evil cheeseburgers to protect your Mongolian grill from the tyranny of the fast food industry.
 
 # Game Structure
 This game is built using the GODOT open source game engine and the models are created using Blender. In GODOT, the game consists of the following scenes:
