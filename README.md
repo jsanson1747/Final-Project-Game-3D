@@ -12,7 +12,8 @@ The player is a CharacterBody3D and is made up of a few different object. The bo
 ![image](https://user-images.githubusercontent.com/107002749/235007488-4bf108d0-6c6c-43ce-80c5-30c5cb2a62c3.png)
 
 ### The Enemy
-The Enemy is a CharacterBody3D and is made up of 2 simplified convex collision mesh siblings that are modeled around the cheeseburger mesh. The mesh itself is made up of a cyclinder, a hollowed out torus, a partial sphere and the same leg mesh used for the player model. The led mesh is also animated to match the walk speed of the cheeseburger. 
+The Enemy is a CharacterBody3D and is made up of 2 simplified convex collision mesh siblings that are modeled around the cheeseburger mesh. The mesh itself is made up of a cyclinder, a hollowed out torus, a partial sphere and the same leg mesh used for the player model. The led mesh is also animated to match the walk speed of the cheeseburger.
+
 ![image](https://user-images.githubusercontent.com/107002749/235327087-03578212-c659-4b20-9dd5-34f2f1e7afae.png)
 
 The enemy moves autonomously utilizing GODOT's NavigationAgent3D and NavigationRegion3D. It constantly moves towrds the player and rotates it's head so it will always be looking at the player. They spawn in from a random direction around the player at regular intervals and immediatly after spawning, that start pathfinding towards the player. The cheeseburger handles all the collision detection with the player. IT checks if the player is attacking and if it is touching the player at that point, ut dies. Otherwise, it damages the player. To detect a collision with the player, it uses the NaigationAgent3D functionality of testing if it has reached it's destination. IF it has reached it's destination, that means it is colliding with the player. 
